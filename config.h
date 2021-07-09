@@ -6,8 +6,8 @@ static const unsigned int snap      = 32;       /* snap pixel */
 static const int rmaster            = 1;        /* 1 means master-area is initially on the right */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "monospace:size=10" };
-static const char dmenufont[]       = "monospace:size=10";
+static const char *fonts[]          = { "Hasklig\ Semibold:size=10" };
+static const char dmenufont[]       = "Hasklig\ Semibold:size=10";
 static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#444444";
 static const char col_gray3[]       = "#bbbbbb";
@@ -123,3 +123,4 @@ static Signal signals[] = {
 	/* signum       function        argument  */
 	{ 1,            setlayout,      {.v = 0} },
 };
+
